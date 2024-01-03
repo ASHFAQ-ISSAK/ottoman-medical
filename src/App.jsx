@@ -1,13 +1,11 @@
 import './App.css'
-
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       
       <h1>OTTOMAN</h1>
-      
+      <img src="./public/logo.png" alt="" />
       
     </>
   )
