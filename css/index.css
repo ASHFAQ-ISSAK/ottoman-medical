@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding: 0;
+}
+img{
+    height: 50px;
+}
+#logocontainer{
+    display: flex;
+    align-items: center;
+}
+#logocontainer h1{
+    font-size: 55px;
+    color: rgb(58, 78, 194);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.links ul{
+    display: flex;
+    list-style: none;
+    margin-right: 9px;
+    justify-content: space-between;
+}
+.links{
+    width: 250px;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    border: solid 1px gainsboro;
+}
+.tagline{
+    width: 100%;
+    height: 100%;
+    border: solid 1px gainsboro;
+    background-color: red;
+}
+.hero{
+    /* background-color: aqua; */
+    height: 850px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
